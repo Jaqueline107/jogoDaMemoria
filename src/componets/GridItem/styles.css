@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Container4 {
+    opacity: 95%;
+    background-color:#1550F6;
+    height: 80px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 4s;
+}
+

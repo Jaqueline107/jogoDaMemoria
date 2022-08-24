@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Container {
+  width: 100%;
+  max-width: 750px;
+  margin: auto;
+  display: flex;
+  padding: 50px 0;
+}
+
+@media (max-width: 750px) {
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+.Info {
+  margin-bottom: 50px;
+  align-items: center;
+  }
+
+.InfoArea {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  }
+
+.GridArea {
+  justify-content: center;
+  margin: 0 20px;}
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.logoLink {
+  display: block;
+}
+
+.InfoArea {
+  width: 100%;
+  margin: 10px 0;
+}
+
+
+.GridArea  {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.Grid {
+  width: 430px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+@media (max-width: 500px) {
+  .Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+  .Grid {
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+   }
+  }
