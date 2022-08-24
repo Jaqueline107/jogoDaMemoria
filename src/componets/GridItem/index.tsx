@@ -1,4 +1,3 @@
-import { type } from "@testing-library/user-event/dist/type";
 import { gridItem } from "../../types/gridItemsType";
 import "./styles.css";
 import b7 from "../../svgs/b7.svg";

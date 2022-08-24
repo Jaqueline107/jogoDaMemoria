@@ -115,10 +115,7 @@ const App = () => {
     <div className="Container">
       <div className="Info">
         <div className="LogoLink">
-          <a href="">
-            {" "}
-            <img src={Logo} alt="logo" width={200} />
-          </a>
+          <img src={Logo} alt="logo" width={200} />
         </div>
         <div className="InfoArea">
           <InfoItem label="Tempo" value={formatTimeElapsed(timeElapsed)} />
